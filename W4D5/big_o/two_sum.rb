@@ -26,7 +26,7 @@ def hash_sum?(arr, target_sum)
     end
 
     hash.any? do |k,v|
-        if v == target_sum - k
+        if hash.has_key?(target_sum - k)
             if k == target_sum - k
                 v > 1
             else
