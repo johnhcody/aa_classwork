@@ -1,0 +1,12 @@
+<h1>New User Page!</h1>
+<h2>Sign up for this amazing app</h2>
+
+<form action="<%= users_url %>" name="sign-up" method="post">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <label for="email">Email</label><br>
+    <input type="text" id="email" name= "user[email]" value="<%= @user.email %>"><br><br>
+    <label for="password">Password</label><br>
+    <input type="password" id="password" name="user[password]" value="<%= @user.password %>"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
