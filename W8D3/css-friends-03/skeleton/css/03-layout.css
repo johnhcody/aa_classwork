@@ -1,0 +1,32 @@
+/* PHASE 3: Layout */
+.content {
+    display: flex;
+    position: relative;
+    background-color: red;
+}
+
+ .content-sidebar p {
+    position: absolute;
+    min-width: 180;
+    min-height: 200px;
+    border: black 5px;
+    background-color: green;
+}
+
+.content-main ul {
+    position: absolute;
+    right: 50px;
+    min-width: 180;
+    min-height: 200px;
+    background-color: pink;
+   
+}
+
+
+element.style {
+    position: absolute;
+    right: 50px;
+    min-width: 180;
+    min-height: 200px;
+    background-color: purple;
+}
