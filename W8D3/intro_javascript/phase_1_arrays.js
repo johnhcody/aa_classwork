@@ -71,8 +71,6 @@ Array.prototype.myMap = function() {
 }
 
 
-
-
 console.log(myEachArray.myMap(doubles));
 
 
